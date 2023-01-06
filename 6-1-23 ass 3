@@ -1,0 +1,6 @@
+email=input()
+phno=input()
+if email.endswith("@gmail.com") or email.endswith("@yahoo.com") or email.endswith("@adc.aditya.ac.in") and if phno.startswith("+919") or phno.startswith("+918") or phno.startswith("+917") or phno.startswith("+916"):
+    print("registration successfully")
+else:
+    print("check your details")
